@@ -1,2 +1,14 @@
-# run-buddy
-Pages created to display information regarding the "Run Buddy" brand including a home page and a private policy page.
+# Run Buddy
+
+## Purpose
+A website that offers fitness training services.
+
+## Built With
+* HTML
+* CSS
+
+## Website
+https://lernantino.github.io/run-buddy/
+
+## Contribution
+Made with ❤️ by [your name]
