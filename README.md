@@ -1,4 +1,4 @@
-# Run Buddy Inc.
+# Run Buddy, Inc
 
 ## Purpose
 A website that offers fitness training services. 
@@ -8,9 +8,9 @@ A website that offers fitness training services.
 * CSS
 
 ## Website
-https://kalib-hicks.github.io/run-buddy2.0/
+https://lernantino.github.io/run-buddy/
 
 ## Contribution
-Made with ❤️ by [Kalib Hicks]
+Made with ❤️ by [your name]
 
 ### ©️2019 Run Buddy, Inc 
