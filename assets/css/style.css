@@ -14,6 +14,14 @@ body {
 
 header {
   padding: 20px 35px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-image: url('../images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+ background-position: 80%;
   background-color: #39a6b2;
   display: flex;
   justify-content: space-between;
@@ -22,6 +30,7 @@ header {
 
 header h1 {
   font-weight: bold;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin: 0;
   font-size: 36px;
   color: #fce138;
@@ -46,6 +55,7 @@ header nav ul {
 
 header nav ul li a {
   padding: 10px 15px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   font-weight: lighter;
   font-size: 1.55vw;
 }
@@ -92,6 +102,8 @@ section {
   background-position: center;
   display: flex;
   justify-content: center;
+  background-attachment: fixed;
+  background-position: 80%;
   flex-wrap: wrap;
   align-items: flex-start;
 }
@@ -109,14 +121,17 @@ section {
   font-style: italic;
   font-size: 55px;
   color: #fce138;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form {
   border: 3px solid #024e76;
   background-color: #fce138;
   padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: #024e76;
   width: 40%;
+  border-radius: 15px;
   margin: 3.5%;
 }
 
@@ -131,6 +146,7 @@ section {
 .form-input {
   border: 1px solid #024e76;
   display: block;
+  border-radius: 10px;
   padding: 7px 15px;
   font-size: 16px;
   color: #024e76;
@@ -144,6 +160,7 @@ section {
 
 .hero-form button {
   color: #fce138;
+  border-radius: 10px;
   background-color: #024e76;
   border: none;
   padding: 10px 20px;
@@ -333,6 +350,8 @@ section {
 }
 /* SERVICE STYLES END */
 
+
+
 /* REACH OUT STYLES START */
 .contact {
   background: #024e76;
@@ -376,6 +395,7 @@ section {
 .contact-form input, .contact-form textarea {
   border: 1px solid #024e76;
   display: block;
+  border-radius: 10px;
   padding: 7px 15px;
   font-size: 16px;
   color: #024e76;
@@ -386,6 +406,7 @@ section {
 
 .contact-form button {
   width: 100%;
+  border-radius: 10px;
   border: none;
   background: #fce138;
   color: #024e76;
